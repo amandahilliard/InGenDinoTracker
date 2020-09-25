@@ -1,6 +1,10 @@
 export interface DinoTable{
-    title: string, 
-    user: string, 
+    id: number, 
+    species: string, 
+    weight: number,
+    caregiver: string,
+    screened: boolean, 
 }
 
 export type Dinos = DinoTable[]
+
